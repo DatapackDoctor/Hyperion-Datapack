@@ -1,9 +1,16 @@
-scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick", tag: {CustomModelData: 860001}}},scores={rightClickHPN=1..}] clickHPN 1
+# Remove tags
+tag @a remove hp_rcd
 
-execute as @a[scores={clickHPN=1..}] at @s run function hyperion:clicked
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run function hyperion:raycasting
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s unless block ~ ~ ~ minecraft:air run function hyperion:noair
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=100..},sort=nearest] at @s run function hyperion:tp
+# Drop Crafting
+execute as @e[type=item,nbt={Item: {id: "minecraft:nether_star", Count:2b}}] at @s if entity @e[type=item,nbt={Item: {id: "minecraft:stick", Count:1b}}] run function hyperion:drop_crafting
 
-scoreboard players set @a rightClickHPN 0
-scoreboard players set @a clickHPN 0
+# Right Click Detection
+execute as @a[scores={hp_rc=1..},nbt={SelectedItem:{tag:{CustomModelData:860001}}}] at @s run scoreboard players set @s hp_rcd 1
+tag @a[scores={hp_rcd=1..}] add hp_rcd
+
+# Raytracing
+execute as @a[tag=hp_rcd] at @s run function hyperion:raycasting
+
+# Scoreboard Reset
+scoreboard players set @a hp_rc 0
+scoreboard players set @a hp_rcd 0

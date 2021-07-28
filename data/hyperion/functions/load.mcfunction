@@ -1,3 +1,2 @@
-scoreboard objectives add rightClickHPN minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add clickHPN dummy
-scoreboard objectives add lifeAS dummy
+scoreboard objectives add hp_rc minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add hp_rcd dummy

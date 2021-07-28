@@ -1,299 +1,52 @@
-tp ^ ^ ^0.1
-scoreboard players add @s lifeAS 1
+# 10
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^5 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^6 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^7 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^8 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^9 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^10 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+# 9
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^5 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^6 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^7 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^8 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^9 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^10 run execute unless block ~ ~ ~ air run execute as @s at @s positioned ^ ^ ^9 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^5 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^6 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^7 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^8 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^9 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^10 run execute unless block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^9 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+# 8
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^5 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^6 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^7 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^8 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^9 run execute unless block ~ ~ ~ air run execute as @s at @s positioned ^ ^ ^8 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^5 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^6 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^7 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^8 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^9 run execute unless block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^8 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+# 7
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^5 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^6 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^7 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^8 run execute unless block ~ ~ ~ air run execute as @s at @s positioned ^ ^ ^7 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^5 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^6 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^7 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^8 run execute unless block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^7 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+# 6
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^5 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^6 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^7 run execute unless block ~ ~ ~ air run execute as @s at @s positioned ^ ^ ^6 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^5 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^6 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^7 run execute unless block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^6 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+# 5
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^5 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^6 run execute unless block ~ ~ ~ air run execute as @s at @s positioned ^ ^ ^5 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^5 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^6 run execute unless block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^5 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+# 4
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^5 run execute unless block ~ ~ ~ air run execute as @s at @s positioned ^ ^ ^4 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^5 run execute unless block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+# 3
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute unless block ~ ~ ~ air run execute as @s at @s positioned ^ ^ ^3 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^4 run execute unless block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+# 2
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute unless block ~ ~ ~ air run execute as @s at @s positioned ^ ^ ^2 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^3 run execute unless block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+# 1
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute unless block ~ ~ ~ air run execute as @s at @s positioned ^ ^ ^1 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+execute as @s at @s positioned ^ ^ ^1 run execute if block ~ ~ ~ air if block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^2 run execute unless block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^1 run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+# 0
+execute as @s at @s positioned ^ ^ ^1 run execute unless block ~ ~ ~ air run execute as @s at @s positioned ^ ^ ^ run function hyperion:tp
 
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
-
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run tp ^ ^ ^0.1
-execute as @e[type=armor_stand,tag=hpnas,scores={lifeAS=..100}] at @s if block ~ ~ ~ minecraft:air run scoreboard players add @s lifeAS 1
+execute as @s at @s positioned ^ ^ ^1 run execute unless block ~ ~1 ~ air run execute as @s at @s positioned ^ ^ ^ run function hyperion:tp
